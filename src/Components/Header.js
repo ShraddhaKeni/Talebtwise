@@ -5,11 +5,7 @@ import Fade from "react-reveal";
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
-
-    const project = this.props.data.project;
-    const github = this.props.data.github;
     const name = this.props.data.name;
-    const description = this.props.data.description;
 
     return (
       <header id="home">
@@ -62,19 +58,27 @@ class Header extends Component {
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <div style={{ textAlign: 'center', color: 'white' }}>Accomplishing corporate essentials the intelligent way!
+                <br></br>
+                TalentWise is a full-service executive implementation firm that furnishes clients
+                with an extraordinary facility for execution. In today’s competitive circumstances,
+                the success of any business pivots on technology coupled with upwardly mobile and
+                professional handling of critical tasks. Since IT infrastructure transforms continually,
+                accessing the latest implementation methodology becomes even more crucial. We are committed
+                to constructing relationships with our clients to best meet their needs and equip them with
+                exceptional services. We offer creative, customized implementation services with stable,
+                secure professionals experienced in the most delinquent technologies.
+                <br></br><br></br>
+                At TalentWise, we intend to best synchronize our outlook with that of our clients.
+                Our strategies are instituted in real-time after immersing ourselves in our client’s culture while
+                getting oriented with the management style, organizational goals and history. We present a proactive
+                strategy for all IT implementation needs associated with persistent monitoring, interpretation,
+                and enhancement of the requirements before it gets into your core apparatus. By establishing suitable
+                mechanisms, we enable our clients to notice some fundamental reasons for prevalent execution problems.
+              </div>
             </Fade>
             <hr />
-            <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
-                </a>
-              </ul>
-            </Fade>
+
           </div>
         </div>
 
