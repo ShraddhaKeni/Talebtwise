@@ -2,20 +2,57 @@ import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 import emailjs from '@emailjs/browser';
 
+const initialState = {
+  nameError: "",
+  emailError: "",
+};
+
 class Contact extends Component {
+  state = initialState;
   render() {
 
     const sendEmail = (e) => {
       e.preventDefault();
-  
-      emailjs.sendForm('gmail', 'templateid', e.target, '_PeCypRnDCmv1PmXP')
+
+      const isValid = this.validate();
+      if (isValid) {
+        console.log(this.state);
+        alert("Form submitted successfully!")
+        emailjs.sendForm('gmail', 'templateid', e.target, '_PeCypRnDCmv1PmXP')
         .then((result) => {
-            console.log(result.text);
+          console.log(result.text);
+          // clear form
+          this.setState(initialState);
+          e.target.reset();
         }, (error) => {
-            console.log(error.text);
+          console.log(error.text);
         });
-        e.target.reset();
+      }
+      //e.target.reset(); // clears the form
+      //this.setState(initialState);
     };
+
+    this.validate = () => {
+      let nameError = "";
+      let emailError = "";
+  
+      if (!this.state.user_name) {
+        nameError = "Name field is mandatory";
+        this.setState({nameError });
+        return false;
+      } 
+      if (!this.state.user_email) {
+        emailError = "Email field is mandatory";
+        this.setState({emailError });
+        return false;
+      }
+      return true;
+    };
+
+    this.handleChange = event => {
+      this.setState({ [event.target.name]: event.target.value });
+      console.log(event.target.name)
+    }
 
     if (!this.props.data) return null;
 
@@ -57,35 +94,43 @@ class Contact extends Component {
                       type="text"
                       defaultValue=""
                       size="35"
+                      maxLength={25}
                       id="contactName"
                       name="user_name"
                       onChange={this.handleChange}
+                      value={this.state.namevalue}
                     />
                   </div>
+                  <div style={{ fontSize: 12, color: "red" }}>
+                    {this.state.nameError}</div>
 
                   <div>
                     <label htmlFor="contactEmail">
                       Email <span className="required">*</span>
                     </label>
                     <input
-                      type="text"
+                      type="email"
                       defaultValue=""
                       size="35"
                       id="contactEmail"
                       name="user_email"
                       onChange={this.handleChange}
+                      value={this.state.emailvalue}
                     />
                   </div>
+                  <div style={{ fontSize: 12, color: "red" }}>
+                    {this.state.emailError}</div>
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      Message
                     </label>
                     <textarea
                       cols="50"
-                      rows="15"
+                      rows="6"
                       id="contactMessage"
                       name="message"
+                      maxLength={30}
                     ></textarea>
                   </div>
 

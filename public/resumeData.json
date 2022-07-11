@@ -111,19 +111,19 @@
       {
         "title":"Genpact",
         "category":"Genpact",
-        "image":"Genpact.png",
+        "image":"JPMorgan.png",
         "url":""
       },
       {
         "title":"Capgemini",
         "category":"Capgemini",
-        "image":"Capgemini1.png",
+        "image":"JPMorgan.png",
         "url":""
       },
       {
         "title":"Wells Fargo",
         "category":"WellsFargo",
-        "image":"WellsFargo.jpeg",
+        "image":"JPMorgan.png",
         "url":""
       },
       {
@@ -135,20 +135,20 @@
       {
         "title":"TCS",
         "category":"TCS",
-        "image":"TCS.png",
+        "image":"JPMorgan.png",
         "url":""
       },
       {
         "title":"Virtusa",
         "category":"Virtusa",
-        "image":"Virtusa.png",
+        "image":"JPMorgan.png",
         "url":""
       },
       {
         "title":"Deloitte",
         "category":"Deloitte",
-        "image":"Deloitte.png",
-        "url":"Deloitte"
+        "image":"JPMorgan.png",
+        "url":""
       }
     ]
   }
