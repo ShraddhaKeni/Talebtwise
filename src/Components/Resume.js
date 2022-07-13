@@ -37,7 +37,7 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="ten columns main-col" style={{textAlign:"justify"}}>
+            <div className="ten columns main-col" style={{textAlign:"justify", color:"rgb(84 75 75)"}}>
              
                 At TalentWise, services for client objectives fulfilment is all that matters. Presently, TalentWise offers the following range of services:
                   <br></br> 

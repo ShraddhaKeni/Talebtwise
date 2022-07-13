@@ -22,7 +22,7 @@ class Footer extends Component {
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
-              <ul className="copyright">
+              <ul className="copyright" style={{color:"rgb(84 75 75)"}}>
                 <li>&copy; Copyright 2022</li>
                 <li>
                   Design by{" "}

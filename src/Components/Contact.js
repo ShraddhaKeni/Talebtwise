@@ -76,7 +76,7 @@ class Contact extends Component {
             </div>
 
             <div className="ten columns">
-              <p className="lead">{message}</p>
+              <p className="lead" style={{color:"white", fontSize:"20px", marginTop:"30px"}}>{message}</p>
             </div>
           </div>
         </Fade>
@@ -146,7 +146,7 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
-                <p className="address">
+                <p className="address" style={{color:"#bfb8b8"}}>
                   {name}
                   <br />
                   {street} <br />

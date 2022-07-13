@@ -30,18 +30,13 @@
       },
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/company/talentwise-ca/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
         "url":"http://instagram.com/tbaker_x",
         "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
       }
     ]
   },
@@ -111,7 +106,7 @@
       {
         "title":"Genpact",
         "category":"Genpact",
-        "image":"JPMorgan.png",
+        "image":"g1.jpg",
         "url":""
       },
       {
@@ -123,7 +118,7 @@
       {
         "title":"Wells Fargo",
         "category":"WellsFargo",
-        "image":"JPMorgan.png",
+        "image":"wells.png",
         "url":""
       },
       {
@@ -135,19 +130,19 @@
       {
         "title":"TCS",
         "category":"TCS",
-        "image":"JPMorgan.png",
+        "image":"TCS.png",
         "url":""
       },
       {
         "title":"Virtusa",
         "category":"Virtusa",
-        "image":"JPMorgan.png",
+        "image":"Virtusa.png",
         "url":""
       },
       {
         "title":"Deloitte",
         "category":"Deloitte",
-        "image":"JPMorgan.png",
+        "image":"Deloitte.png",
         "url":""
       }
     ]
