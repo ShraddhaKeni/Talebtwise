@@ -88,7 +88,7 @@ class Contact extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      Name <span className="required" style={{ color: "red" }}>*</span>
                     </label>
                     <input
                       type="text"
@@ -99,6 +99,7 @@ class Contact extends Component {
                       name="user_name"
                       onChange={this.handleChange}
                       value={this.state.namevalue}
+                      style={{ background: "white" ,color: "#000000"}}
                     />
                   </div>
                   <div style={{ fontSize: 12, color: "red" }}>
@@ -106,7 +107,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
+                      Email <span className="required" style={{ color: "red" }}>*</span>
                     </label>
                     <input
                       type="email"
@@ -114,6 +115,7 @@ class Contact extends Component {
                       size="35"
                       id="contactEmail"
                       name="user_email"
+                      style={{ background: "white" ,color: "#000000"}}
                       onChange={this.handleChange}
                       value={this.state.emailvalue}
                     />
@@ -131,6 +133,7 @@ class Contact extends Component {
                       id="contactMessage"
                       name="message"
                       maxLength={30}
+                      style={{ background: "white",color: "#000000" }}
                     ></textarea>
                   </div>
 

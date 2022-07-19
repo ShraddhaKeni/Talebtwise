@@ -1,6 +1,6 @@
 {
   "main": {
-    "name":"TalentWise",
+    "name":"TalentWiseCA",
     "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
@@ -20,12 +20,12 @@
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"http://talentwise.io/",
         "className":"fa fa-facebook"
       },
       {
         "name":"twitter",
-        "url":"http://twitter.com",
+        "url":"http://talentwise.io/",
         "className":"fa fa-twitter"
       },
       {
@@ -35,7 +35,7 @@
       },
       {
         "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
+        "url":"http://talentwise.io/",
         "className":"fa fa-instagram"
       }
     ]
