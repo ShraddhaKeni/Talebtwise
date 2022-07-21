@@ -6,7 +6,7 @@ class About extends Component {
     if (!this.props.data) return null;
 
     return (
-      <section id="about">
+      <section id="about" style={{backgroundColor:"rgb(65, 73, 74)",boxShadow: "5px 10px"}}>
         <Fade duration={1000}>
           <div className="row">
             <div className="twelve columns main-col">

@@ -21,11 +21,11 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id="portfolio">
+      <section id="portfolio" style={{backgroundColor:"rgb(65 73 74)",boxShadow: "5px 10px"}}>
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Our Clients</h1>
+              <h1 style={{color:"#fff"}}>Our Clients</h1>
 
               <div
                 id="portfolio-wrapper"
@@ -37,6 +37,7 @@ class Portfolio extends Component {
           </div>
         </Fade>
       </section>
+      
     );
   }
 }

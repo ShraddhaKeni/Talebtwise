@@ -63,20 +63,20 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
-    const message = this.props.data.contactmessage;
+    //const message = this.props.data.contactmessage;
 
     return (
-      <section id="contact">
+      <section id="contact" style={{backgroundColor:"rgb(43, 127, 139)",boxShadow: "5px 10px"}}>
         <Fade bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Get In Touch.</span>
+                <span></span>
               </h1>
             </div>
 
             <div className="ten columns">
-              <p className="lead" style={{color:"white", fontSize:"20px", marginTop:"30px"}}>{message}</p>
+              <p className="lead" style={{color:"white", fontSize:"20px", marginTop:"30px", fontWeight:"bold"}}>Contact Us</p>
             </div>
           </div>
         </Fade>
@@ -102,7 +102,7 @@ class Contact extends Component {
                       style={{ background: "white" ,color: "#000000"}}
                     />
                   </div>
-                  <div style={{ fontSize: 12, color: "red" }}>
+                  <div style={{ fontSize: 12, color: "rgb(171 46 46)" }}>
                     {this.state.nameError}</div>
 
                   <div>
@@ -120,7 +120,7 @@ class Contact extends Component {
                       value={this.state.emailvalue}
                     />
                   </div>
-                  <div style={{ fontSize: 12, color: "red" }}>
+                  <div style={{ fontSize: 12, color: "rgb(171 46 46)" }}>
                     {this.state.emailError}</div>
 
                   <div>
@@ -138,7 +138,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit" style={{backgroundColor:"#333"}}>Submit</button>
                   </div>
                 </fieldset>
               </form>
@@ -149,7 +149,7 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
-                <p className="address" style={{color:"#bfb8b8"}}>
+                <p className="address" style={{color:"rgb(219 210 210)"}}>
                   {name}
                   <br />
                   {street} <br />

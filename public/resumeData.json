@@ -112,13 +112,13 @@
       {
         "title":"Capgemini",
         "category":"Capgemini",
-        "image":"JPMorgan.png",
+        "image":"capgemini.png",
         "url":""
       },
       {
         "title":"Wells Fargo",
         "category":"WellsFargo",
-        "image":"wells.png",
+        "image":"wf.png",
         "url":""
       },
       {
@@ -130,7 +130,7 @@
       {
         "title":"TCS",
         "category":"TCS",
-        "image":"TCS.png",
+        "image":"tc.png",
         "url":""
       },
       {
@@ -142,7 +142,25 @@
       {
         "title":"Deloitte",
         "category":"Deloitte",
-        "image":"Deloitte.png",
+        "image":"d.png",
+        "url":""
+      },
+      {
+        "title":"Pactera",
+        "category":"Pactera",
+        "image":"pactera.png",
+        "url":""
+      },
+      {
+        "title":"Citi",
+        "category":"Citi",
+        "image":"Citi.png",
+        "url":""
+      },
+      {
+        "title":"TD",
+        "category":"TD",
+        "image":"TD.png",
         "url":""
       }
     ]
