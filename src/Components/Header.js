@@ -24,12 +24,13 @@ class Header extends Component {
 
         {/* <ParticlesBg type="circle" bg={true} />  */}
         
-          <img src="/images/banner-image.png" alt="banner" width="100%" />
+           {/* <img src="/images/banner-image.png" alt="banner" width="100%" className="bannerimage"/>  */}
+   {/* <div class="bannerimage"></div>  */}
           <div class="col-sm-4">
-            <img src="/images/Talentwiselogo.png" alt="logo" width="192px" style={{position:"absolute", top: "18px", left:"25px"}}/>
+            <img src="/images/talentw.png" alt="logo" width="200px" style={{position:"absolute", top: "25px", left:"70px"}}/>
           </div>
           <div class="col-sm-8">
-            <nav id="nav-wrap" style={{ fontSize: "18px", marginTop: "15px", }}>
+            <nav id="nav-wrap" style={{ fontSize: "18px", marginTop: "32px", }}>
 
               <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
                 Show navigation
@@ -71,10 +72,6 @@ class Header extends Component {
               </ul>
             </nav>
           </div>
-   
-
-
-
 
         <div className="row banner">
           <div className="banner-text">
