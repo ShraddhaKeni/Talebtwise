@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
+import { Helmet } from 'react-helmet'
 
 let id = 0;
 class Portfolio extends Component {
@@ -23,6 +24,10 @@ class Portfolio extends Component {
     return (
       <section id="portfolio" style={{backgroundColor:"rgb(65 73 74)",boxShadow: "5px 10px"}}>
         <Fade left duration={1000} distance="40px">
+        <Helmet>
+            <title>Talentwise - Our Clients</title>
+            <meta name="description" content="Our Clients" />
+          </Helmet>
           <div className="row">
             <div className="twelve columns collapsed">
               <h1 style={{color:"#fff"}}>Our Clients</h1>

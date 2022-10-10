@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Helmet } from 'react-helmet'
 
 class Testimonials extends Component {
   render() {
@@ -17,6 +18,10 @@ class Testimonials extends Component {
 
     return (
       <section id="testimonials">
+         <Helmet>
+            <title>Talentwise</title>
+            <meta name="description" content="Client Testimonials" />
+          </Helmet>
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">

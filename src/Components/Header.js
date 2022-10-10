@@ -21,57 +21,56 @@ class Header extends Component {
     return (
 
       <header id="home">
-
         {/* <ParticlesBg type="circle" bg={true} />  */}
-        
-           {/* <img src="/images/banner-image.png" alt="banner" width="100%" className="bannerimage"/>  */}
-   {/* <div class="bannerimage"></div>  */}
-          <div class="col-sm-4">
-            <img src="/images/talentw.png" alt="logo" width="200px" style={{position:"absolute", top: "25px", left:"70px"}}/>
-          </div>
-          <div class="col-sm-8">
-            <nav id="nav-wrap" style={{ fontSize: "18px", marginTop: "32px", }}>
 
-              <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-                Show navigation
-              </a>
-              <a className="mobile-btn" href="#home" title="Hide navigation">
-                Hide navigation
-              </a>
+        {/* <img src="/images/banner-image.png" alt="banner" width="100%" className="bannerimage"/>  */}
+        {/* <div class="bannerimage"></div>  */}
+        <div class="col-sm-4">
+          <img src="/images/talentw.png" alt="logo" width="200px" style={{ position: "absolute", top: "25px", left: "70px" }} />
+        </div>
+        <div class="col-sm-8">
+          <nav id="nav-wrap" style={{ fontSize: "18px", marginTop: "32px", }}>
 
-              <ul id="nav" className="nav">
-                <li className="current">
-                  <a className="smoothscroll" href="#home">
-                    Home
-                  </a>
-                </li>
+            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+              Show navigation
+            </a>
+            <a className="mobile-btn" href="#home" title="Hide navigation">
+              Hide navigation
+            </a>
 
-                <li>
-                  <a className="smoothscroll" href="#about">
-                    About Us
-                  </a>
-                </li>
+            <ul id="nav" className="nav">
+              <li className="current">
+                <a className="smoothscroll" href="#home">
+                  Home
+                </a>
+              </li>
 
-                <li>
-                  <a className="smoothscroll" href="#resume">
-                    Services
-                  </a>
-                </li>
+              <li>
+                <a className="smoothscroll" href="#about">
+                  About Us
+                </a>
+              </li>
 
-                <li>
-                  <a className="smoothscroll" href="#portfolio">
-                    Our Clients
-                  </a>
-                </li>
+              <li>
+                <a className="smoothscroll" href="#resume">
+                  Services
+                </a>
+              </li>
 
-                <li>
-                  <a className="smoothscroll" href="#contact">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+              <li>
+                <a className="smoothscroll" href="#portfolio">
+                  Our Clients
+                </a>
+              </li>
+
+              <li>
+                <a className="smoothscroll" href="#contact">
+                  Contact Us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
         <div className="row banner">
           <div className="banner-text">
@@ -80,7 +79,7 @@ class Header extends Component {
             </Fade>
             <Fade bottom duration={1500}>
               <div style={myStyle}><h1>TalentwiseCA</h1><h2>Accomplishing corporate essentials the intelligent way!</h2>
-               
+
               </div>
             </Fade>
             <hr />

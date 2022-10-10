@@ -3,11 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import ReactSEO from 'react-seo';
 
-ReactSEO.startMagic([{url:'https://talentwise.io/',isFullMatch:false}],renderDOM)
-
-function renderDOM() {
   ReactDOM.render(
     <App />,
     document.getElementById('root')
@@ -17,4 +13,3 @@ function renderDOM() {
   // to log results (for example: reportWebVitals(console.log))
   // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
   reportWebVitals();
-}

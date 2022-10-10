@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Fade, Slide } from "react-reveal";
 import emailjs from '@emailjs/browser';
+import { Helmet } from 'react-helmet'
 
 const initialState = {
   nameError: "",
@@ -68,6 +69,10 @@ class Contact extends Component {
     return (
       <section id="contact" style={{backgroundColor:"rgb(43, 127, 139)",boxShadow: "5px 10px"}}>
         <Fade bottom duration={1000}>
+        <Helmet>
+            <title>Talentwise - Contact us</title>
+            <meta name="description" content="Contact us" />
+          </Helmet>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>

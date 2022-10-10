@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
 import ReactReadMoreReadLess from "react-read-more-read-less";
+import { Helmet } from 'react-helmet'
 
 class Resume extends Component {
   // getRandomColor() {
@@ -18,7 +19,10 @@ class Resume extends Component {
 
     return (
       <section id="resume" style={{backgroundColor:"rgb(43 127 139)",boxShadow: "5px 10px"}}>
-
+         <Helmet>
+            <title>Talentwise - Services</title>
+            <meta name="description" content=" At TalentWiseCA, services for client objectives fulfilment is all that matters. Presently, TalentWiseCA offers the following range of services:" />
+          </Helmet>
         <Slide left duration={3000}>
           <div className="row">
 
