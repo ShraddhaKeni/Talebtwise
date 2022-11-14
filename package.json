@@ -2,7 +2,7 @@
   "name": "reactniceresume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "http://./",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.11.4",
@@ -50,5 +50,17 @@
   },
   "devDependencies": {
     "chokidar": "^3.5.1"
+  },
+  "description": "![img](https://github.com/nordicgiant2/react-nice-resume/blob/master/public/images/img.jpg?raw=true)",
+  "main": "workbox-config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/axzoragroup/talentwise-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/axzoragroup/talentwise-website/issues"
   }
 }
