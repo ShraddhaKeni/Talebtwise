@@ -26,8 +26,7 @@ class Header extends Component {
         {/* <img src="/images/banner-image.png" alt="banner" width="100%" className="bannerimage"/>  */}
         {/* <div class="bannerimage"></div>  */}
         <div class="col-sm-4">
-          {/* <img src="/images/talentw.png" alt="logo" width="200px" style={{ position: "absolute", top: "25px", left: "70px" }} /> */}
-          <img src="/images/christmaslogo.png" alt="logo" width="200px" style={{ position: "absolute", top: "25px", left: "70px" }} />
+          <img src="/images/talentw.png" alt="logo" width="200px" style={{ position: "absolute", top: "25px", left: "70px" }} />
         </div>
         <div class="col-sm-8">
           <nav id="nav-wrap" style={{ fontSize: "18px", marginTop: "32px", }}>

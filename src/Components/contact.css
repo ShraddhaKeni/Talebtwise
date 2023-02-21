@@ -1,0 +1,15 @@
+.checkboxtext {
+    color: black;
+    margin-left: 35%;
+    font-size: 12px;
+    margin-top: -11%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+    .checkboxtext {
+        color: black;
+        margin-left: 13%;
+        font-size: 12px;
+        margin-top: -4%;
+    }
+}
