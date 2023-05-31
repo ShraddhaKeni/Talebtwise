@@ -185,7 +185,7 @@ class Contact extends Component {
                       value={this.state.tickCheckboxvalue}
                     />
 
-                    <div className="checkboxtext"> By clicking this you consent to Axzora for using this information to establish a connection with you to understand your requirement</div>
+                    <div className="checkboxtext" required="required"> By clicking this you consent to TalentwiseCA for using this information to establish a connection with you to understand your requirement</div>
                   </div>
                   <div style={{ fontSize: 12, color: "rgb(171 46 46)" }}>
                     {this.state.checkboxError}</div>
